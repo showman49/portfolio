@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Styles/styles.css" />
+    <title>kim son - Portfolio</title>
+  </head>
+
+<style>
+    header > h3{
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-links > a:hover {
+    color: rgb(0, 110, 255);
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+}
+.home-content > img{
+    height: 500px;
+}
+.home-desc{
+    width: 50%;
+}
+.home-desc > h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 110, 255);
+}
+
+.home-desc > p{
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.home-desc > a >  button{
+    padding: .7rem 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 6px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.home-desc > a > button:hover{
+    background-color: rgb(0, 110, 255);
+    border: 1px solid rgb(0, 110, 255);
+    color: white;
+  </style>
+  
+  <body>
+    <nav>
+      <header>
+        <h3>Kim- Son</h3>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+          <a href="#contacts">Contacts</a>
+        </div>
+      </header>
+    </nav>
+
+    <section id="home" class="home-content">
+      <img src="/Images/kim son.jpeg" alt="" />
+      <div class="home-desc">
+        <h3>Hello world, I’m kim son</h3>
+        <p>
+          Hi there! I am Kim! you can also know me as a junior techie.
+          iam a student at Power learn project , africa's upcoming 
+          school aiming to train 1million devs by 2027.
+        </p>
+        <a href="#contact"><button>Contacts</button></a>
+      </div>
+    </section>
+
+    <section id="about" class="about-content">
+      <div class="about-desc">
+        <h3>Get To Know Me</h3>
+        <p>
+          Hi there! I am Kim! the internet contains alot of things and here 
+          is how i earn my daily life.
+        </p>
+      </div>
+      <h3>About Me</h3>
+    </section>
+
+    <section id="resume" class="about-content">
+      <h3>Resume</h3>
+      <div class="resume-desc">
+        <h3>Education</h3>
+        <p>
+          Hi there! I am Kim! You might also know me as web tech.
+          i help get solutions for clients on this internet .
+        </p>
+        <h3>FreeLancing</h3>
+        <p>
+          Hi there! I am Kim! You might also for pricing.
+        </p>
+        <h3>operate</h3>
+        <li>control</li>
+        <li>connect</li>
+        <li>link</li>
+        <li>code</li>
+        <li>write</li>
+        <li>read</li>
+      </div>
+    </section>
+    <section id="contacts" class="contact-content">
+      <h3>Contact Me</h3>
+      <div class="contact-desc">
+        <p>Get in touch with me and grow your skills and business!</p>
+        <form>
+          <input type="text" placeholder="Name" /><br /><br />
+          <input type="text" placeholder="Email" /><br /><br />
+          <input type="text" placeholder="Subject" /><br /><br />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea
+          ><br /><br />
+          <button>Send</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-content">
+        <div class="social-media">
+          <a href=""><i class="fa fa-facebook"></i></a>
+          <a href=""><i class="fa fa-linkedin"></i></a>
+          <a href=""><i class="fa fa-instagram"></i></a>
+        </div>
+        <p>Build by Evans-Mutuku</p>
+      </div>
+    </section>
+  </body>
+</html>
